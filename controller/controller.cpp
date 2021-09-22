@@ -51,7 +51,6 @@ int main()
       string street3 = row.at(6);
       string street4 = row.at(8);
       string tbc = row.at(12);
-      // cout << tbc << endl;
 
       if (tbc == "GPS")
       {
@@ -72,7 +71,6 @@ int main()
         {
           streets.push_back(street4);
         }
-        cout << street1 << ", " << street2 << ", " << street3 << ", " << street4 << endl;
         TrafficController t = TrafficController(streets, cnn, k, -1);
         trafficControllers.push_back(t);
         k = k + streets.size();
@@ -117,7 +115,7 @@ int main()
   {
     TrafficController trafficController = *it;
     vector<string> trafficControllerCSV = trafficController.getCSV();
-    for (vector<string>::iterator it_csv = trafficControllerCSV.begin(); it_csv != trafficControllerCSV.end(); ++it)
+    for (vector<string>::iterator it_csv = trafficControllerCSV.begin(); it_csv != trafficControllerCSV.end(); ++it_csv)
     {
       string line = *it_csv;
       if (csvOutput.is_open())
