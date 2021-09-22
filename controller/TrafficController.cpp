@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-TrafficController::TrafficController(vector<string> streets, string cnn, int k)
+TrafficController::TrafficController(vector<string> streets, string cnn, int km, string coordinates)
 {
   this->streets = streets;
   this->cnn = cnn;
@@ -29,6 +29,17 @@ TrafficController::TrafficController(vector<string> streets, string cnn, int k)
     trafficLights.push_back(t);
   }
   this->trafficLights = trafficLights;
+  coordinates.erase(0, 7);
+  coordinates.erase(coordinates.length() - 1, 1);
+  int length = coordinates.length();
+  for (int i = 0; i < length; i++)
+  {
+    if (coordinates[i] == ' ')
+    {
+      coordinates[i] = ',';
+    }
+  }
+  this->coordinates = coordinates;
 }
 
 TrafficLight TrafficController::createTrafficLight(string streetName, int state, int lengthGreen)
@@ -91,10 +102,47 @@ vector<string> TrafficController::getCSV()
   return csv;
 }
 
+vector<string> TrafficController::getKML()
+{
+  vector<string> kml;
+  kml.push_back("<Placemark>");
+  kml.push_back("<name>" + cnn + "</name>");
+  string description = streets.at(0);
+  string icon = "i" + to_string(intersection) + stateToColor(trafficLights.at(0).getState());
+  for (int i = 1; i < intersection; i++)
+  {
+    description = description + " and " + streets.at(i);
+    icon = icon + stateToColor(trafficLights.at(i).getState());
+  }
+  kml.push_back("<description>" + description + "</description>");
+  kml.push_back("<styleUrl>#" + icon + "</styleUrl>");
+  kml.push_back("<Point>");
+  kml.push_back("<coordinates>" + coordinates + "</coordinates>");
+  kml.push_back("</Point>");
+  kml.push_back("</Placemark>");
+  return kml;
+}
+
 void TrafficController::printAllLights()
 {
   for (int i = 0; i < intersection; i++)
   {
     cout << trafficLights.at(i).getStreetName() << ": " << trafficLights.at(i).getState() << endl;
+  }
+}
+
+string TrafficController::stateToColor(int s)
+{
+  if (s == 0)
+  {
+    return "r";
+  }
+  else if (s == 1)
+  {
+    return "g";
+  }
+  else
+  {
+    return "y";
   }
 }

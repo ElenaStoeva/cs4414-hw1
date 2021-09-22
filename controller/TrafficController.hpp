@@ -6,10 +6,11 @@ using namespace std;
 class TrafficController
 {
 public:
-  TrafficController(vector<string>, string, int);
+  TrafficController(vector<string>, string, int, string);
   void startSimulation();
   void update();
   vector<string> getCSV();
+  vector<string> getKML();
   void printAllLights();
 
 private:
@@ -19,4 +20,6 @@ private:
   vector<string> streets;             // names of streets in this intersection (empty street names omitted)
   vector<TrafficLight> trafficLights; // traffic light objects in this intersection
   TrafficLight createTrafficLight(string, int, int);
+  string coordinates;
+  string stateToColor(int);
 };

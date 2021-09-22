@@ -21,9 +21,15 @@ vector<string> parseCSVLine(string line)
     else
     {
       // FIX THIS!!!
-      string tmp1 = tmp;
+      string cellWithCommas = tmp;
       getline(str_strm, tmp, delim);
-      words.push_back(tmp1 + tmp);
+      while (tmp.find("\"") == string::npos)
+      {
+        cellWithCommas = cellWithCommas + "," + tmp;
+        getline(str_strm, tmp, delim);
+      }
+      cellWithCommas = cellWithCommas + "," + tmp;
+      words.push_back(cellWithCommas);
     }
   }
   return words;
@@ -52,7 +58,7 @@ int main()
       string street3 = row.at(6);
       string street4 = row.at(8);
       string tbc = row.at(12);
-
+      string coordinates = row.at(34);
       if (tbc == "GPS")
       {
         vector<string> streets;
@@ -72,7 +78,7 @@ int main()
         {
           streets.push_back(street4);
         }
-        TrafficController t = TrafficController(streets, cnn, k);
+        TrafficController t = TrafficController(streets, cnn, k, coordinates);
         trafficControllers.push_back(t);
         k = k + streets.size() - 1;
       }
@@ -142,12 +148,15 @@ int main()
   }
 
   char letters[3] = {'r', 'g', 'y'};
+
   // add icon styles
   for (int i = 0; i < 3; i++)
   {
     for (int j = 0; j < 3; j++)
     {
-      string id = "i2" + letters[i] + letters[j];
+      string id = "i2";
+      id.push_back(letters[i]);
+      id.push_back(letters[j]);
       kmlOutput << "<Style id=\"" + id + "\">" << endl;
       kmlOutput << "<IconStyle id=\"" + id + "\">" << endl;
       kmlOutput << "<Icon>" << endl;
@@ -165,7 +174,10 @@ int main()
     {
       for (int k = 0; k < 3; k++)
       {
-        string id = "i3" + letters[i] + letters[j] + letters[k];
+        string id = "i3";
+        id.push_back(letters[i]);
+        id.push_back(letters[j]);
+        id.push_back(letters[k]);
         kmlOutput << "<Style id=\"" + id + "\">" << endl;
         kmlOutput << "<IconStyle id=\"" + id + "\">" << endl;
         kmlOutput << "<Icon>" << endl;
@@ -186,7 +198,11 @@ int main()
       {
         for (int l = 0; l < 3; l++)
         {
-          string id = "i4" + letters[i] + letters[j] + letters[k] + letters[l];
+          string id = "i4";
+          id.push_back(letters[i]);
+          id.push_back(letters[j]);
+          id.push_back(letters[k]);
+          id.push_back(letters[l]);
           kmlOutput << "<Style id=\"" + id + "\">" << endl;
           kmlOutput << "<IconStyle id=\"" + id + "\">" << endl;
           kmlOutput << "<Icon>" << endl;
@@ -201,6 +217,15 @@ int main()
   }
 
   // add pushpins
+  for (vector<TrafficController>::iterator it = trafficControllers.begin(); it != trafficControllers.end(); ++it)
+  {
+    vector<string> trafficControllerKML = (*it).getKML();
+    for (vector<string>::iterator it_kml = trafficControllerKML.begin(); it_kml != trafficControllerKML.end(); ++it_kml)
+    {
+      string line = *it_kml;
+      kmlOutput << line << endl;
+    }
+  }
 
   // footers
   kmlOutput << "</Document>" << endl;
