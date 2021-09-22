@@ -1,8 +1,8 @@
 CC = g++
 CFLAGS = -std=c++17 -Wall
 
-output: controller.o TrafficController.o TrafficLight.o
-	$(CC) $(CFLAGS) controller.o TrafficController.o TrafficLight.o -o output
+controller: controller.o TrafficController.o TrafficLight.o
+	$(CC) $(CFLAGS) controller.o TrafficController.o TrafficLight.o -o controller
 
 controller.o: controller.cpp
 	$(CC) $(CFLAGS) -c controller.cpp
@@ -14,4 +14,4 @@ TrafficLight.o: TrafficLight.cpp TrafficLight.hpp
 	$(CC) $(CFLAGS) -c TrafficLight.cpp
 
 clear:
-	rm *.o output
+	rm *.o controller

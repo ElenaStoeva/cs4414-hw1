@@ -35,10 +35,26 @@ vector<string> parseCSVLine(string line)
   return words;
 }
 
-int main()
+int main(int argc, char **argv)
 {
+  int t;
+  if (argc != 2)
+  {
+    std::cout << "Incorrect number of arguements" << std::endl;
+    return 0;
+  }
+  else
+  {
+    string arg = string(argv[1]);
+    arg.erase(0, 3);
+    t = stoi(arg);
+    if (t < 0)
+    {
+      cout << "The input time must be a non-negative integer." << endl;
+    }
+  }
+
   int counter = -1;
-  int t = 90;
   vector<TrafficController> trafficControllers;
   string line;
   ifstream f;

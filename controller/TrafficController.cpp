@@ -64,15 +64,16 @@ void TrafficController::update()
       greenTrafficLightIndex = i;
     }
     trafficLights.at(i).updateRemainingTime();
-    if (trafficLights.at(i).getRemainingTime() == 0 && trafficLights.at(i).getState() != 0)
+    if (trafficLights.at(i).getRemainingTime() == 0 && trafficLights.at(i).getState() == 2)
     {
       trafficLights.at(i).switchColor();
     }
   }
   // Switch next traffic light to green
   int nextGreenTrafficLightIndex = (greenTrafficLightIndex + 1) % intersection;
-  if (trafficLights.at(nextGreenTrafficLightIndex).getState() == 0)
+  if (trafficLights.at(greenTrafficLightIndex).getRemainingTime() == 0 && trafficLights.at(nextGreenTrafficLightIndex).getState() == 0)
   {
+    trafficLights.at(greenTrafficLightIndex).switchColor();
     trafficLights.at(nextGreenTrafficLightIndex).switchColor();
   }
 }
