@@ -9,6 +9,7 @@ public:
   void switchColor();
   int getRemainingTime();
   void updateRemainingTime();
+  string getStreetName();
 
 private:
   string streetName;

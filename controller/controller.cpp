@@ -31,7 +31,7 @@ vector<string> parseCSVLine(string line)
 int main()
 {
   int counter = -1;
-  int t = 100;
+  int t = 3;
   vector<TrafficController> trafficControllers;
   string line;
   ifstream f;
@@ -101,6 +101,38 @@ int main()
     }
     counter = counter + 1;
   }
+
+  // Output csv file
+  ofstream csvOutput;
+  csvOutput.open("myfile.csv");
+  if (csvOutput.is_open())
+  {
+    csvOutput << "CNN,STREET,COLOR" << endl;
+  }
+  else
+  {
+    cout << "Didn't expect this" << endl;
+  }
+  for (vector<TrafficController>::iterator it = trafficControllers.begin(); it != trafficControllers.end(); ++it)
+  {
+    TrafficController trafficController = *it;
+    vector<string> trafficControllerCSV = trafficController.getCSV();
+    for (vector<string>::iterator it_csv = trafficControllerCSV.begin(); it_csv != trafficControllerCSV.end(); ++it)
+    {
+      string line = *it_csv;
+      if (csvOutput.is_open())
+      {
+        csvOutput << line << endl;
+      }
+      else
+      {
+        cout << "Didn't expect this" << endl;
+      }
+    }
+  }
+  csvOutput.close();
+
+  // Output kml file
 
   return 0;
 }

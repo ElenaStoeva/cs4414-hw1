@@ -65,5 +65,34 @@ void TrafficController::update()
   // Switch next traffic light to green
   int nextGreenTrafficLightIndex = (greenTrafficLightIndex + 1) % intersection;
   TrafficLight nextGreenTrafficLight = trafficLights.at(nextGreenTrafficLightIndex);
-  nextGreenTrafficLight.switchColor();
+  if (nextGreenTrafficLight.getState() == 0)
+  {
+    nextGreenTrafficLight.switchColor();
+  }
+}
+
+vector<string> TrafficController::getCSV()
+{
+  vector<string> csv;
+  for (int i = 0; i < intersection; i++)
+  {
+    TrafficLight trafficLight = trafficLights.at(i);
+    string street = trafficLight.getStreetName();
+    string color;
+    if (trafficLight.getState() == 0)
+    {
+      color = "Red";
+    }
+    else if (trafficLight.getState() == 1)
+    {
+      color = "Green";
+    }
+    else
+    {
+      color = "Yellow";
+    }
+    string row = cnn + "," + street + "," + color;
+    csv.push_back(row);
+  }
+  return csv;
 }

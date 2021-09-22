@@ -17,6 +17,11 @@ int TrafficLight::getState()
   return state;
 }
 
+string TrafficLight::getStreetName()
+{
+  return streetName;
+}
+
 void TrafficLight::switchColor()
 {
   state = (state + 1) % 3;
@@ -28,6 +33,11 @@ void TrafficLight::switchColor()
   {
     remainingTime = lengthYellow;
   }
+}
+
+int TrafficLight::getRemainingTime()
+{
+  return remainingTime;
 }
 
 void TrafficLight::updateRemainingTime()

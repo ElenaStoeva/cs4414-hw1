@@ -9,6 +9,7 @@ public:
   TrafficController(vector<string>, string, int, int);
   void startSimulation();
   void update();
+  vector<string> getCSV();
 
 private:
   int intersection;
