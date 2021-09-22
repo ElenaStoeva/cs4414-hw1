@@ -20,6 +20,7 @@ vector<string> parseCSVLine(string line)
       words.push_back(tmp);
     else
     {
+      // FIX THIS!!!
       string tmp1 = tmp;
       getline(str_strm, tmp, delim);
       words.push_back(tmp1 + tmp);
@@ -31,7 +32,7 @@ vector<string> parseCSVLine(string line)
 int main()
 {
   int counter = -1;
-  int t = 3;
+  int t = 90;
   vector<TrafficController> trafficControllers;
   string line;
   ifstream f;
@@ -71,11 +72,12 @@ int main()
         {
           streets.push_back(street4);
         }
-        TrafficController t = TrafficController(streets, cnn, k, -1);
+        TrafficController t = TrafficController(streets, cnn, k);
         trafficControllers.push_back(t);
-        k = k + streets.size();
+        k = k + streets.size() - 1;
       }
     }
+    f.close();
   }
   else
   {
@@ -86,16 +88,16 @@ int main()
   counter = 0;
   for (vector<TrafficController>::iterator it = trafficControllers.begin(); it != trafficControllers.end(); ++it)
   {
-    TrafficController trafficController = *it;
-    trafficController.startSimulation();
+    (*it).startSimulation();
+    // (*it).printAllLights();
   }
 
+  // Update traffic lights
   while (counter < t)
   {
     for (vector<TrafficController>::iterator it = trafficControllers.begin(); it != trafficControllers.end(); ++it)
     {
-      TrafficController trafficController = *it;
-      // update counter and all traffic lights
+      (*it).update();
     }
     counter = counter + 1;
   }
@@ -111,26 +113,100 @@ int main()
   {
     cout << "Didn't expect this" << endl;
   }
+
   for (vector<TrafficController>::iterator it = trafficControllers.begin(); it != trafficControllers.end(); ++it)
   {
-    TrafficController trafficController = *it;
-    vector<string> trafficControllerCSV = trafficController.getCSV();
+    vector<string> trafficControllerCSV = (*it).getCSV();
     for (vector<string>::iterator it_csv = trafficControllerCSV.begin(); it_csv != trafficControllerCSV.end(); ++it_csv)
     {
       string line = *it_csv;
-      if (csvOutput.is_open())
-      {
-        csvOutput << line << endl;
-      }
-      else
-      {
-        cout << "Didn't expect this" << endl;
-      }
+      csvOutput << line << endl;
     }
   }
   csvOutput.close();
 
   // Output kml file
+  ofstream kmlOutput;
+  kmlOutput.open("myfile.kml");
+
+  // headers
+  if (kmlOutput.is_open())
+  {
+    kmlOutput << "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" << endl;
+    kmlOutput << "<kml xmlns=\"http://www.opengis.net/kml/2.2\">" << endl;
+    kmlOutput << "<Document>" << endl;
+  }
+  else
+  {
+    cout << "Didn't expect this" << endl;
+  }
+
+  char letters[3] = {'r', 'g', 'y'};
+  // add icon styles
+  for (int i = 0; i < 3; i++)
+  {
+    for (int j = 0; j < 3; j++)
+    {
+      string id = "i2" + letters[i] + letters[j];
+      kmlOutput << "<Style id=\"" + id + "\">" << endl;
+      kmlOutput << "<IconStyle id=\"" + id + "\">" << endl;
+      kmlOutput << "<Icon>" << endl;
+      kmlOutput << "<href>files/" + id + ".png</href>" << endl;
+      kmlOutput << "<scale>1.0</scale>" << endl;
+      kmlOutput << "</Icon>" << endl;
+      kmlOutput << "</IconStyle>" << endl;
+      kmlOutput << "</Style>" << endl;
+    }
+  }
+
+  for (int i = 0; i < 3; i++)
+  {
+    for (int j = 0; j < 3; j++)
+    {
+      for (int k = 0; k < 3; k++)
+      {
+        string id = "i3" + letters[i] + letters[j] + letters[k];
+        kmlOutput << "<Style id=\"" + id + "\">" << endl;
+        kmlOutput << "<IconStyle id=\"" + id + "\">" << endl;
+        kmlOutput << "<Icon>" << endl;
+        kmlOutput << "<href>files/" + id + ".png</href>" << endl;
+        kmlOutput << "<scale>1.0</scale>" << endl;
+        kmlOutput << "</Icon>" << endl;
+        kmlOutput << "</IconStyle>" << endl;
+        kmlOutput << "</Style>" << endl;
+      }
+    }
+  }
+
+  for (int i = 0; i < 3; i++)
+  {
+    for (int j = 0; j < 3; j++)
+    {
+      for (int k = 0; k < 3; k++)
+      {
+        for (int l = 0; l < 3; l++)
+        {
+          string id = "i4" + letters[i] + letters[j] + letters[k] + letters[l];
+          kmlOutput << "<Style id=\"" + id + "\">" << endl;
+          kmlOutput << "<IconStyle id=\"" + id + "\">" << endl;
+          kmlOutput << "<Icon>" << endl;
+          kmlOutput << "<href>files/" + id + ".png</href>" << endl;
+          kmlOutput << "<scale>1.0</scale>" << endl;
+          kmlOutput << "</Icon>" << endl;
+          kmlOutput << "</IconStyle>" << endl;
+          kmlOutput << "</Style>" << endl;
+        }
+      }
+    }
+  }
+
+  // add pushpins
+
+  // footers
+  kmlOutput << "</Document>" << endl;
+  kmlOutput << "</kml>" << endl;
+
+  kmlOutput.close();
 
   return 0;
 }

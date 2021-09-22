@@ -13,7 +13,7 @@ public:
 
 private:
   string streetName;
-  int state;
+  int state; // color
   int lengthGreen;
   int lengthYellow;
   int remainingTime;

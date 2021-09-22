@@ -42,5 +42,5 @@ int TrafficLight::getRemainingTime()
 
 void TrafficLight::updateRemainingTime()
 {
-  remainingTime = min(0, remainingTime - 1);
+  remainingTime = max(0, remainingTime - 1);
 }
