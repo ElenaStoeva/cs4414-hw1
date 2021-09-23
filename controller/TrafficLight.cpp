@@ -3,13 +3,13 @@
 // state 0 -> red
 // state 1 -> green
 // state 2 -> yellow
-TrafficLight::TrafficLight(string streetName, int state, int lengthGreen)
+TrafficLight::TrafficLight(string streetName, int state, int lengthGreen, int nextSwitchTime)
 {
   this->streetName = streetName;
   this->state = state; //remove state argument, initiallize to 0
   this->lengthGreen = lengthGreen;
   this->lengthYellow = 10;
-  this->remainingTime = 0;
+  this->nextSwitchTime = nextSwitchTime;
 }
 
 int TrafficLight::getState()
@@ -25,22 +25,19 @@ string TrafficLight::getStreetName()
 void TrafficLight::switchColor()
 {
   state = (state + 1) % 3;
-  if (state == 1)
-  {
-    remainingTime = lengthGreen;
-  }
-  if (state == 2)
-  {
-    remainingTime = lengthYellow;
-  }
 }
 
-int TrafficLight::getRemainingTime()
+int TrafficLight::getGreenCycle()
 {
-  return remainingTime;
+  return lengthGreen;
 }
 
-void TrafficLight::updateRemainingTime()
+int TrafficLight::getNextSwitchTime()
 {
-  remainingTime = max(0, remainingTime - 1);
+  return nextSwitchTime;
+}
+
+void TrafficLight::setNextSwitchTime(int nextT)
+{
+  nextSwitchTime = nextT;
 }

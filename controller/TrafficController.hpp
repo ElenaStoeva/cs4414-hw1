@@ -1,3 +1,4 @@
+#pragma once
 #include <vector>
 #include <string>
 #include "TrafficLight.hpp"
@@ -7,8 +8,8 @@ class TrafficController
 {
 public:
   TrafficController(vector<string>, string, int, string);
-  void startSimulation();
-  void update();
+  int startSimulation();
+  int update(int);
   vector<string> getCSV();
   vector<string> getKML();
   void printAllLights();
@@ -19,7 +20,8 @@ private:
   string cnn;                         // cnn of this intersection
   vector<string> streets;             // names of streets in this intersection (empty street names omitted)
   vector<TrafficLight> trafficLights; // traffic light objects in this intersection
-  TrafficLight createTrafficLight(string, int, int);
+  TrafficLight createTrafficLight(string, int, int, int);
   string coordinates;
   string stateToColor(int);
+  vector<TrafficLight> orderedTrafficLights;
 };

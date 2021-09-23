@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-TrafficController::TrafficController(vector<string> streets, string cnn, int km, string coordinates)
+TrafficController::TrafficController(vector<string> streets, string cnn, int k, string coordinates)
 {
   this->streets = streets;
   this->cnn = cnn;
@@ -25,7 +25,7 @@ TrafficController::TrafficController(vector<string> streets, string cnn, int km,
     {
       lengthGreen = 30;
     }
-    TrafficLight t = createTrafficLight(streets.at(i), state, lengthGreen);
+    TrafficLight t = createTrafficLight(streets.at(i), state, lengthGreen, 0);
     trafficLights.push_back(t);
   }
   this->trafficLights = trafficLights;
@@ -42,40 +42,54 @@ TrafficController::TrafficController(vector<string> streets, string cnn, int km,
   this->coordinates = coordinates;
 }
 
-TrafficLight TrafficController::createTrafficLight(string streetName, int state, int lengthGreen)
+TrafficLight TrafficController::createTrafficLight(string streetName, int state, int lengthGreen, int nextSwitchTime)
 {
-  TrafficLight t = TrafficLight(streetName, state, lengthGreen);
+  TrafficLight t = TrafficLight(streetName, state, lengthGreen, nextSwitchTime);
   return t;
 }
 
-void TrafficController::startSimulation()
+int TrafficController::startSimulation()
 {
   trafficLights.at(0).switchColor();
-  // printAllLights();
+  int greenCycle = trafficLights.at(0).getGreenCycle();
+  trafficLights.at(0).setNextSwitchTime(greenCycle);
+  trafficLights.at(1).setNextSwitchTime(greenCycle + 10);
+  return greenCycle;
 }
 
-void TrafficController::update()
+int TrafficController::update(int currentTime)
 {
-  int greenTrafficLightIndex;
+  int nextEventTime = 1000;
+  int nextGreenTrafficLightIndex;
+  int nextGreenTime;
+  bool someoneSwitchedToGreen = false;
   for (int i = 0; i < intersection; i++)
   {
-    if (trafficLights.at(i).getState() == 1)
-    {
-      greenTrafficLightIndex = i;
-    }
-    trafficLights.at(i).updateRemainingTime();
-    if (trafficLights.at(i).getRemainingTime() == 0 && trafficLights.at(i).getState() == 2)
+    if (trafficLights.at(i).getNextSwitchTime() == currentTime)
     {
       trafficLights.at(i).switchColor();
+      if (trafficLights.at(i).getState() == 1)
+      {
+        int nextSwitchTime = currentTime + trafficLights.at(i).getGreenCycle();
+        nextEventTime = min(nextEventTime, nextSwitchTime);
+        trafficLights.at(i).setNextSwitchTime(nextSwitchTime);
+        nextGreenTrafficLightIndex = (i + 1) % intersection;
+        nextGreenTime = nextSwitchTime + 10;
+        someoneSwitchedToGreen = true;
+      }
+      else if (trafficLights.at(i).getState() == 2)
+      {
+        int nextSwitchTime = currentTime + 10;
+        nextEventTime = min(nextEventTime, nextSwitchTime);
+        trafficLights.at(i).setNextSwitchTime(nextSwitchTime);
+      }
     }
   }
-  // Switch next traffic light to green
-  int nextGreenTrafficLightIndex = (greenTrafficLightIndex + 1) % intersection;
-  if (trafficLights.at(greenTrafficLightIndex).getRemainingTime() == 0 && trafficLights.at(nextGreenTrafficLightIndex).getState() == 0)
+  if (someoneSwitchedToGreen)
   {
-    trafficLights.at(greenTrafficLightIndex).switchColor();
-    trafficLights.at(nextGreenTrafficLightIndex).switchColor();
+    trafficLights.at(nextGreenTrafficLightIndex).setNextSwitchTime(nextGreenTime);
   }
+  return nextEventTime;
 }
 
 vector<string> TrafficController::getCSV()
@@ -128,7 +142,8 @@ void TrafficController::printAllLights()
 {
   for (int i = 0; i < intersection; i++)
   {
-    cout << trafficLights.at(i).getStreetName() << ": " << trafficLights.at(i).getState() << endl;
+    cout << trafficLights.at(i).getStreetName() << ": " << trafficLights.at(i).getState() << ", Next switch time:"
+         << trafficLights.at(i).getNextSwitchTime() << endl;
   }
 }
 

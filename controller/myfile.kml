@@ -996,7 +996,7 @@
 <Placemark>
 <name>4607000</name>
 <description>DAVIS and MIDBLOCK AT and CLAY and SACRAMENTO</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrrg</styleUrl>
 <Point>
 <coordinates>-122.39787,37.794857</coordinates>
 </Point>
@@ -1028,7 +1028,7 @@
 <Placemark>
 <name>23149000</name>
 <description>19TH AVE and SLOAT</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.47509,37.73462</coordinates>
 </Point>
@@ -1076,7 +1076,7 @@
 <Placemark>
 <name>23141000</name>
 <description>JUNIPERO SERRA and PORTOLA and SLOAT and WEST PORTAL</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.47156,37.734703</coordinates>
 </Point>
@@ -1100,7 +1100,7 @@
 <Placemark>
 <name>21699000</name>
 <description>BOSWORTH and MISSION and MURRAY</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.42638,37.73367</coordinates>
 </Point>
@@ -1116,7 +1116,7 @@
 <Placemark>
 <name>20467000</name>
 <description>03RD ST and LE CONTE</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.39746,37.71883</coordinates>
 </Point>
@@ -1172,7 +1172,7 @@
 <Placemark>
 <name>30738000</name>
 <description>03RD ST and GEARY and KEARNY and MARKET</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rryr</styleUrl>
 <Point>
 <coordinates>-122.40342,37.787636</coordinates>
 </Point>
@@ -1180,7 +1180,7 @@
 <Placemark>
 <name>24494000</name>
 <description>01ST ST and HARRISON and US I-80 ON RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.39292,37.786064</coordinates>
 </Point>
@@ -1196,7 +1196,7 @@
 <Placemark>
 <name>25223000</name>
 <description>BUSH and VAN NESS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.421936,37.788486</coordinates>
 </Point>
@@ -1244,7 +1244,7 @@
 <Placemark>
 <name>27578000</name>
 <description>ARGUELLO and LAKE and SACRAMENTO</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.45927,37.786907</coordinates>
 </Point>
@@ -1252,7 +1252,7 @@
 <Placemark>
 <name>21346000</name>
 <description>26TH ST and VALENCIA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42034,37.7489</coordinates>
 </Point>
@@ -1260,7 +1260,7 @@
 <Placemark>
 <name>22424000</name>
 <description>FOWLER and PORTOLA and SYDNEY</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.453354,37.744587</coordinates>
 </Point>
@@ -1300,7 +1300,7 @@
 <Placemark>
 <name>26494000</name>
 <description>GEARY and GOUGH and PETER YORKE and STARR KING</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.424675,37.785328</coordinates>
 </Point>
@@ -1316,7 +1316,7 @@
 <Placemark>
 <name>30731000</name>
 <description>01ST ST and BATTERY and BUSH and MARKET</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.39913,37.79101</coordinates>
 </Point>
@@ -1332,7 +1332,7 @@
 <Placemark>
 <name>25478000</name>
 <description>NORTH POINT and STOCKTON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.410484,37.806957</coordinates>
 </Point>
@@ -1372,7 +1372,7 @@
 <Placemark>
 <name>21737000</name>
 <description>ITALY and MISSION</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.43948,37.718464</coordinates>
 </Point>
@@ -1420,7 +1420,7 @@
 <Placemark>
 <name>23875000</name>
 <description>07TH ST and BRYANT and US I-80 OFF RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.40473,37.774277</coordinates>
 </Point>
@@ -1428,7 +1428,7 @@
 <Placemark>
 <name>27475000</name>
 <description>ANZA and PARK PRESIDIO</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.47216,37.778725</coordinates>
 </Point>
@@ -1436,7 +1436,7 @@
 <Placemark>
 <name>12553201</name>
 <description>EMBARCADERO and MIDBLOCK AT and FERRY BUILDING NB</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.39379,37.795177</coordinates>
 </Point>
@@ -1516,7 +1516,7 @@
 <Placemark>
 <name>24372000</name>
 <description>14TH ST and MISSION</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41997,37.76827</coordinates>
 </Point>
@@ -1532,7 +1532,7 @@
 <Placemark>
 <name>24192000</name>
 <description>10TH ST and BRYANT and US 101 S ON RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40972,37.770344</coordinates>
 </Point>
@@ -1612,7 +1612,7 @@
 <Placemark>
 <name>7833201</name>
 <description>KING and MIDBLOCK AT and 03RD ST and 04TH ST</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrrg</styleUrl>
 <Point>
 <coordinates>-122.39292,37.777267</coordinates>
 </Point>
@@ -1644,7 +1644,7 @@
 <Placemark>
 <name>54065000</name>
 <description>GENEVA and STONERIDGE</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.426186,37.710915</coordinates>
 </Point>
@@ -1652,7 +1652,7 @@
 <Placemark>
 <name>25474000</name>
 <description>EMBARCADERO and KEARNY and NORTH POINT</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.40729,37.807373</coordinates>
 </Point>
@@ -1668,7 +1668,7 @@
 <Placemark>
 <name>22943000</name>
 <description>14TH AVE and PORTOLA and SAN ANSELMO and SANTA ANA</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.4683,37.73741</coordinates>
 </Point>
@@ -1692,7 +1692,7 @@
 <Placemark>
 <name>26326000</name>
 <description>CENTRAL and OAK</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.44401,37.77229</coordinates>
 </Point>
@@ -1732,7 +1732,7 @@
 <Placemark>
 <name>26844000</name>
 <description>MASONIC and PINE and PRESIDIO</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.446594,37.786297</coordinates>
 </Point>
@@ -1788,7 +1788,7 @@
 <Placemark>
 <name>7038000</name>
 <description>HOWARD and MIDBLOCK AT and 03RD ST and 04TH ST</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrrg</styleUrl>
 <Point>
 <coordinates>-122.40153,37.784164</coordinates>
 </Point>
@@ -1804,7 +1804,7 @@
 <Placemark>
 <name>22341000</name>
 <description>BURNETT and CLIPPER and PORTOLA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.44482,37.74696</coordinates>
 </Point>
@@ -1860,7 +1860,7 @@
 <Placemark>
 <name>24241000</name>
 <description>13TH ST and SOUTH VAN NESS and US 101 ON RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.41774,37.76981</coordinates>
 </Point>
@@ -1948,7 +1948,7 @@
 <Placemark>
 <name>27569000</name>
 <description>CALIFORNIA and CHERRY and JORDAN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.45667,37.785995</coordinates>
 </Point>
@@ -1988,7 +1988,7 @@
 <Placemark>
 <name>26811000</name>
 <description>BAKER and GEARY and SAINT JOSEPHS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.44278,37.78288</coordinates>
 </Point>
@@ -2004,7 +2004,7 @@
 <Placemark>
 <name>25148000</name>
 <description>EDDY and LARKIN</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41752,37.783306</coordinates>
 </Point>
@@ -2036,7 +2036,7 @@
 <Placemark>
 <name>20502000</name>
 <description>03RD ST and THOMAS and THORNTON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.39206,37.73085</coordinates>
 </Point>
@@ -2044,7 +2044,7 @@
 <Placemark>
 <name>22460000</name>
 <description>ALEMANY and REGENT and SAN JOSE and US I-280 ON RAMP</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.457054,37.710106</coordinates>
 </Point>
@@ -2052,7 +2052,7 @@
 <Placemark>
 <name>23567000</name>
 <description>03RD ST and 19TH ST</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.38867,37.76176</coordinates>
 </Point>
@@ -2092,7 +2092,7 @@
 <Placemark>
 <name>24563000</name>
 <description>01ST ST and MISSION</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.39756,37.789757</coordinates>
 </Point>
@@ -2108,7 +2108,7 @@
 <Placemark>
 <name>25465000</name>
 <description>COLUMBUS and LOMBARD and NEWELL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.413704,37.80274</coordinates>
 </Point>
@@ -2148,7 +2148,7 @@
 <Placemark>
 <name>26348000</name>
 <description>ASHBURY and FELL</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.44749,37.772785</coordinates>
 </Point>
@@ -2188,7 +2188,7 @@
 <Placemark>
 <name>20657000</name>
 <description>03RD ST and PERRY</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.39683,37.782116</coordinates>
 </Point>
@@ -2220,7 +2220,7 @@
 <Placemark>
 <name>21522000</name>
 <description>ALEMANY and HURON and OTTAWA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.44582,37.715294</coordinates>
 </Point>
@@ -2244,7 +2244,7 @@
 <Placemark>
 <name>26802000</name>
 <description>DIVISADERO and O'FARRELL</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.439285,37.782444</coordinates>
 </Point>
@@ -2260,7 +2260,7 @@
 <Placemark>
 <name>26758000</name>
 <description>BEACH and BUCHANAN and MARINA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.433784,37.80504</coordinates>
 </Point>
@@ -2332,7 +2332,7 @@
 <Placemark>
 <name>30746000</name>
 <description>10TH ST and FELL and MARKET and POLK</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.41749,37.776535</coordinates>
 </Point>
@@ -2340,7 +2340,7 @@
 <Placemark>
 <name>20491000</name>
 <description>03RD ST and LANE and YOSEMITE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.39322,37.72773</coordinates>
 </Point>
@@ -2364,7 +2364,7 @@
 <Placemark>
 <name>21337000</name>
 <description>FAIR and MISSION and VALENCIA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rry</styleUrl>
 <Point>
 <coordinates>-122.419876,37.74559</coordinates>
 </Point>
@@ -2372,7 +2372,7 @@
 <Placemark>
 <name>24390000</name>
 <description>GOUGH and MCCOPPIN and OTIS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.420334,37.771767</coordinates>
 </Point>
@@ -2380,7 +2380,7 @@
 <Placemark>
 <name>30729000</name>
 <description>BEALE and DAVIS and MARKET and PINE</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.39737,37.7924</coordinates>
 </Point>
@@ -2412,7 +2412,7 @@
 <Placemark>
 <name>27365000</name>
 <description>18TH AVE and JUDAH</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.475914,37.76174</coordinates>
 </Point>
@@ -2452,7 +2452,7 @@
 <Placemark>
 <name>26607000</name>
 <description>FILLMORE and SUTTER</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.43326,37.78608</coordinates>
 </Point>
@@ -2460,7 +2460,7 @@
 <Placemark>
 <name>24358000</name>
 <description>12TH ST and MISSION and OTIS and SOUTH VAN NESS</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.4186,37.77305</coordinates>
 </Point>
@@ -2468,7 +2468,7 @@
 <Placemark>
 <name>25442000</name>
 <description>COLUMBUS and GREENWICH and MASON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.41253,37.801926</coordinates>
 </Point>
@@ -2492,7 +2492,7 @@
 <Placemark>
 <name>19999000</name>
 <description>OWENS and MIDBLOCK AT and UCSF GARAGE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.392426,37.765717</coordinates>
 </Point>
@@ -2516,7 +2516,7 @@
 <Placemark>
 <name>24201000</name>
 <description>08TH ST and FWY EXIT and HARRISON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.4085,37.773754</coordinates>
 </Point>
@@ -2532,7 +2532,7 @@
 <Placemark>
 <name>25204000</name>
 <description>BUSH and LARKIN</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41864,37.788906</coordinates>
 </Point>
@@ -2572,7 +2572,7 @@
 <Placemark>
 <name>21552000</name>
 <description>ACTON and MISSION and SICKLES</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.45265,37.7088</coordinates>
 </Point>
@@ -2588,7 +2588,7 @@
 <Placemark>
 <name>23383000</name>
 <description>SUNSET and ULLOA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.4943,37.740353</coordinates>
 </Point>
@@ -2628,7 +2628,7 @@
 <Placemark>
 <name>25486000</name>
 <description>JEFFERSON and MASON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.414154,37.808414</coordinates>
 </Point>
@@ -2636,7 +2636,7 @@
 <Placemark>
 <name>20504000</name>
 <description>03RD ST and LANE and VAN DYKE and WILLIAMS</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.39261,37.729275</coordinates>
 </Point>
@@ -2668,7 +2668,7 @@
 <Placemark>
 <name>23889000</name>
 <description>05TH ST and BRYANT and US I-80 ON RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.40028,37.777794</coordinates>
 </Point>
@@ -2676,7 +2676,7 @@
 <Placemark>
 <name>24115000</name>
 <description>22ND ST and VALENCIA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42095,37.75529</coordinates>
 </Point>
@@ -2716,7 +2716,7 @@
 <Placemark>
 <name>26551000</name>
 <description>GREEN and VAN NESS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42378,37.79761</coordinates>
 </Point>
@@ -2748,7 +2748,7 @@
 <Placemark>
 <name>24898000</name>
 <description>MARKET and MASON and TURK</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.408936,37.783283</coordinates>
 </Point>
@@ -2772,7 +2772,7 @@
 <Placemark>
 <name>21827000</name>
 <description>MISSION and RICHLAND</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42445,37.736057</coordinates>
 </Point>
@@ -2788,7 +2788,7 @@
 <Placemark>
 <name>33636000</name>
 <description>ALEMANY and CONGDON and JUSTIN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.42615,37.731163</coordinates>
 </Point>
@@ -2796,7 +2796,7 @@
 <Placemark>
 <name>25332000</name>
 <description>COLUMBUS and TRACY and VALLEJO</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40786,37.79869</coordinates>
 </Point>
@@ -2804,7 +2804,7 @@
 <Placemark>
 <name>25163000</name>
 <description>HYDE and SUTTER</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41682,37.788174</coordinates>
 </Point>
@@ -2820,7 +2820,7 @@
 <Placemark>
 <name>33625000</name>
 <description>LYON and MARINA and OLD MASON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.448265,37.804718</coordinates>
 </Point>
@@ -2852,7 +2852,7 @@
 <Placemark>
 <name>33411000</name>
 <description>JUNIPERO SERRA and MERCEDES and WINSTON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.472046,37.726818</coordinates>
 </Point>
@@ -2956,7 +2956,7 @@
 <Placemark>
 <name>27697000</name>
 <description>NORIEGA and SUNSET</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.49522,37.75341</coordinates>
 </Point>
@@ -2988,7 +2988,7 @@
 <Placemark>
 <name>22554000</name>
 <description>BROTHERHOOD and CHUMASERO and THOMAS MORE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.472725,37.71292</coordinates>
 </Point>
@@ -3052,7 +3052,7 @@
 <Placemark>
 <name>24506000</name>
 <description>BEALE and HOWARD</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.394264,37.78992</coordinates>
 </Point>
@@ -3084,7 +3084,7 @@
 <Placemark>
 <name>25225000</name>
 <description>CALIFORNIA and VAN NESS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42232,37.790363</coordinates>
 </Point>
@@ -3236,7 +3236,7 @@
 <Placemark>
 <name>23075000</name>
 <description>19TH AVE and ROSSMOOR and STONESTOWN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.474724,37.730354</coordinates>
 </Point>
@@ -3244,7 +3244,7 @@
 <Placemark>
 <name>24758000</name>
 <description>COLUMBUS and MONTGOMERY and WASHINGTON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.403305,37.79553</coordinates>
 </Point>
@@ -3260,7 +3260,7 @@
 <Placemark>
 <name>12562101</name>
 <description>EMBARCADERO and MIDBLOCK AT and PIER 39</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.409996,37.808216</coordinates>
 </Point>
@@ -3300,7 +3300,7 @@
 <Placemark>
 <name>30735000</name>
 <description>MARKET and MONTGOMERY and NEW MONTGOMERY and POST</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.402054,37.788715</coordinates>
 </Point>
@@ -3324,7 +3324,7 @@
 <Placemark>
 <name>21743000</name>
 <description>MISSION and OCEAN</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.43537,37.723904</coordinates>
 </Point>
@@ -3348,7 +3348,7 @@
 <Placemark>
 <name>25196000</name>
 <description>FRANKLIN and O'FARRELL and STARR KING</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.42283,37.784542</coordinates>
 </Point>
@@ -3356,7 +3356,7 @@
 <Placemark>
 <name>26199000</name>
 <description>CARMEL and CLAYTON and TWIN PEAKS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rry</styleUrl>
 <Point>
 <coordinates>-122.44642,37.761</coordinates>
 </Point>
@@ -3516,7 +3516,7 @@
 <Placemark>
 <name>27737000</name>
 <description>IRVING and SUNSET</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.495865,37.76273</coordinates>
 </Point>
@@ -3556,7 +3556,7 @@
 <Placemark>
 <name>27978000</name>
 <description>FULTON and LA PLAYA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.50988,37.771393</coordinates>
 </Point>
@@ -3620,7 +3620,7 @@
 <Placemark>
 <name>26033000</name>
 <description>BAKER and BUENA VISTA and HAIGHT</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.440346,37.770844</coordinates>
 </Point>
@@ -3652,7 +3652,7 @@
 <Placemark>
 <name>25563000</name>
 <description>POLK and UNION</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.422325,37.798756</coordinates>
 </Point>
@@ -3724,7 +3724,7 @@
 <Placemark>
 <name>20230000</name>
 <description>03RD ST and JERROLD and NEWHALL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.3893,37.738735</coordinates>
 </Point>
@@ -3748,7 +3748,7 @@
 <Placemark>
 <name>25170000</name>
 <description>GEARY and LARKIN</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.418076,37.786095</coordinates>
 </Point>
@@ -3764,7 +3764,7 @@
 <Placemark>
 <name>30748000</name>
 <description>MARKET and SOUTH VAN NESS and VAN NESS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.41924,37.775143</coordinates>
 </Point>
@@ -3780,7 +3780,7 @@
 <Placemark>
 <name>27104000</name>
 <description>07TH AVE and LAWTON and WARREN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.46377,37.758533</coordinates>
 </Point>
@@ -3828,7 +3828,7 @@
 <Placemark>
 <name>22662000</name>
 <description>DORADO and JULES and OCEAN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.4612,37.724945</coordinates>
 </Point>
@@ -3836,7 +3836,7 @@
 <Placemark>
 <name>20498000</name>
 <description>03RD ST and BAYVIEW and REVERE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.39151,37.732426</coordinates>
 </Point>
@@ -3860,7 +3860,7 @@
 <Placemark>
 <name>20223000</name>
 <description>03RD ST and KIRKWOOD and NEWHALL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.38957,37.73795</coordinates>
 </Point>
@@ -3868,7 +3868,7 @@
 <Placemark>
 <name>2800102</name>
 <description>BAYSHORE and MIDBLOCK AT and CORTLAND and FLOWER</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.406,37.74201</coordinates>
 </Point>
@@ -3932,7 +3932,7 @@
 <Placemark>
 <name>24922000</name>
 <description>06TH ST and GOLDEN GATE and MARKET and TAYLOR</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.41028,37.782227</coordinates>
 </Point>
@@ -3988,7 +3988,7 @@
 <Placemark>
 <name>22192000</name>
 <description>GENEVA and OCEAN and PHELAN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.45232,37.723076</coordinates>
 </Point>
@@ -4004,7 +4004,7 @@
 <Placemark>
 <name>23569000</name>
 <description>18TH ST and ILLINOIS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.38778,37.763103</coordinates>
 </Point>
@@ -4060,7 +4060,7 @@
 <Placemark>
 <name>30745000</name>
 <description>09TH ST and HAYES and LARKIN and MARKET</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rryr</styleUrl>
 <Point>
 <coordinates>-122.416275,37.77749</coordinates>
 </Point>
@@ -4108,7 +4108,7 @@
 <Placemark>
 <name>10669201</name>
 <description>POTRERO and MIDBLOCK AT and 22ND ST and 23RD ST</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.40655,37.75533</coordinates>
 </Point>
@@ -4172,7 +4172,7 @@
 <Placemark>
 <name>30719000</name>
 <description>BATTERY and FILBERT and LEVI PLAZA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rry</styleUrl>
 <Point>
 <coordinates>-122.40178,37.802307</coordinates>
 </Point>
@@ -4252,7 +4252,7 @@
 <Placemark>
 <name>52197000</name>
 <description>PHELAN and MIDBLOCK AT and LEE EXTENSION</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.45236,37.727116</coordinates>
 </Point>
@@ -4268,7 +4268,7 @@
 <Placemark>
 <name>24341000</name>
 <description>15TH ST and SOUTH VAN NESS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41763,37.7668</coordinates>
 </Point>
@@ -4284,7 +4284,7 @@
 <Placemark>
 <name>24791000</name>
 <description>COLUMBUS and KEARNY and PACIFIC</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.40527,37.796906</coordinates>
 </Point>
@@ -4324,7 +4324,7 @@
 <Placemark>
 <name>6436201</name>
 <description>GREAT HWY and VICENTE</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.50697,37.737946</coordinates>
 </Point>
@@ -4348,7 +4348,7 @@
 <Placemark>
 <name>27519000</name>
 <description>25TH AVE and CROSS OVER and FULTON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.484184,37.772564</coordinates>
 </Point>
@@ -4380,7 +4380,7 @@
 <Placemark>
 <name>26796000</name>
 <description>CERVANTES and MARINA and SCOTT</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.4422,37.805782</coordinates>
 </Point>
@@ -4436,7 +4436,7 @@
 <Placemark>
 <name>22811000</name>
 <description>MIRALOMA and PORTOLA and YERBA BUENA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.45889,37.740532</coordinates>
 </Point>
@@ -4452,7 +4452,7 @@
 <Placemark>
 <name>25703000</name>
 <description>17TH ST and DOLORES</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.426216,37.763027</coordinates>
 </Point>
@@ -4476,7 +4476,7 @@
 <Placemark>
 <name>12553101</name>
 <description>EMBARCADERO and MIDBLOCK AT and FERRY BUILDING SB</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.39422,37.79488</coordinates>
 </Point>
@@ -4532,7 +4532,7 @@
 <Placemark>
 <name>30768000</name>
 <description>GRANT and MARKET and O'FARRELL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40457,37.786724</coordinates>
 </Point>
@@ -4540,7 +4540,7 @@
 <Placemark>
 <name>23597000</name>
 <description>BRANNAN and EMBARCADERO</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.38801,37.784767</coordinates>
 </Point>
@@ -4580,7 +4580,7 @@
 <Placemark>
 <name>33663000</name>
 <description>ALEMANY and CRESCENT and PUTNAM and US I-280 OFF RAMP</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.41081,37.73472</coordinates>
 </Point>
@@ -4644,7 +4644,7 @@
 <Placemark>
 <name>30733000</name>
 <description>MARKET and SANSOME and SUTTER</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.40014,37.790287</coordinates>
 </Point>
@@ -4652,7 +4652,7 @@
 <Placemark>
 <name>22865000</name>
 <description>DEWEY and LAGUNA HONDA and WOODSIDE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.45916,37.74728</coordinates>
 </Point>
@@ -4676,7 +4676,7 @@
 <Placemark>
 <name>12556202</name>
 <description>EMBARCADERO and MIDBLOCK AT and PIER 23</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.400856,37.80296</coordinates>
 </Point>
@@ -4780,7 +4780,7 @@
 <Placemark>
 <name>27196000</name>
 <description>05TH AVE and LINCOLN</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.46215,37.766106</coordinates>
 </Point>
@@ -4796,7 +4796,7 @@
 <Placemark>
 <name>24055000</name>
 <description>16TH ST and HARRISON and TREAT</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.41309,37.76544</coordinates>
 </Point>
@@ -4868,7 +4868,7 @@
 <Placemark>
 <name>27881000</name>
 <description>43RD AVE and FULTON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.503456,37.771683</coordinates>
 </Point>
@@ -4900,7 +4900,7 @@
 <Placemark>
 <name>21551000</name>
 <description>LAWRENCE and MISSION and OLIVER</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.45087,37.709408</coordinates>
 </Point>
@@ -4940,7 +4940,7 @@
 <Placemark>
 <name>167000</name>
 <description>03RD ST and MIDBLOCK AT and HOWARD and MISSION</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.4011,37.785538</coordinates>
 </Point>
@@ -4956,7 +4956,7 @@
 <Placemark>
 <name>30755000</name>
 <description>MARKET and VALENCIA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42261,37.7725</coordinates>
 </Point>
@@ -4996,7 +4996,7 @@
 <Placemark>
 <name>25593000</name>
 <description>JONES and NORTH POINT</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41706,37.806137</coordinates>
 </Point>
@@ -5076,7 +5076,7 @@
 <Placemark>
 <name>20298000</name>
 <description>ARLETA and BAYSHORE and SAN BRUNO</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40244,37.712173</coordinates>
 </Point>
@@ -5092,7 +5092,7 @@
 <Placemark>
 <name>21023000</name>
 <description>BAYSHORE and CORTLAND</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.40697,37.739563</coordinates>
 </Point>
@@ -5124,7 +5124,7 @@
 <Placemark>
 <name>21783000</name>
 <description>ADMIRAL and ALEMANY and LYELL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.431175,37.730564</coordinates>
 </Point>
@@ -5148,7 +5148,7 @@
 <Placemark>
 <name>30021000</name>
 <description>03RD ST and TERRY FRANCOIS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.390015,37.776295</coordinates>
 </Point>
@@ -5188,7 +5188,7 @@
 <Placemark>
 <name>25882000</name>
 <description>14TH ST and CHURCH and MARKET</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.428955,37.767723</coordinates>
 </Point>
@@ -5236,7 +5236,7 @@
 <Placemark>
 <name>21837000</name>
 <description>DOLORES and RANDALL and SAN JOSE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.42413,37.739864</coordinates>
 </Point>
@@ -5340,7 +5340,7 @@
 <Placemark>
 <name>27966000</name>
 <description>GREAT HWY and JOHN F KENNEDY</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.51091,37.77043</coordinates>
 </Point>
@@ -5380,7 +5380,7 @@
 <Placemark>
 <name>23821000</name>
 <description>04TH ST and TOWNSEND</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.394966,37.777084</coordinates>
 </Point>
@@ -5476,7 +5476,7 @@
 <Placemark>
 <name>26840000</name>
 <description>BUSH and EUCLID and PRESIDIO</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rry</styleUrl>
 <Point>
 <coordinates>-122.44641,37.785366</coordinates>
 </Point>
@@ -5516,7 +5516,7 @@
 <Placemark>
 <name>30044000</name>
 <description>MARKET and MIDBLOCK AT and UN PLAZA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.41329,37.779827</coordinates>
 </Point>
@@ -5532,7 +5532,7 @@
 <Placemark>
 <name>24568000</name>
 <description>CALIFORNIA and DAVIS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.3976,37.793503</coordinates>
 </Point>
@@ -5540,7 +5540,7 @@
 <Placemark>
 <name>20229000</name>
 <description>03RD ST and INNES and NEWHALL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.389015,37.73953</coordinates>
 </Point>
@@ -5596,7 +5596,7 @@
 <Placemark>
 <name>23834000</name>
 <description>04TH ST and BRYANT and US I-80 OFF RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.39805,37.77956</coordinates>
 </Point>
@@ -5724,7 +5724,7 @@
 <Placemark>
 <name>24691000</name>
 <description>FRONT and SACRAMENTO</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.39896,37.79428</coordinates>
 </Point>
@@ -5764,7 +5764,7 @@
 <Placemark>
 <name>22790000</name>
 <description>OCEAN and SAN LEANDRO</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.46933,37.729973</coordinates>
 </Point>
@@ -5788,7 +5788,7 @@
 <Placemark>
 <name>12554101</name>
 <description>EMBARCADERO and MIDBLOCK AT and BROADWAY and WASHINGTON</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.39689,37.79836</coordinates>
 </Point>
@@ -5868,7 +5868,7 @@
 <Placemark>
 <name>21812000</name>
 <description>CIRCULAR and MONTEREY and US I-280 ON/OFF RAMPS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.43667,37.731533</coordinates>
 </Point>
@@ -5996,7 +5996,7 @@
 <Placemark>
 <name>24198000</name>
 <description>09TH ST and BRYANT and US 101 N OFF RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.408516,37.771286</coordinates>
 </Point>
@@ -6052,7 +6052,7 @@
 <Placemark>
 <name>25468000</name>
 <description>CHESTNUT and COLUMBUS and TAYLOR</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.41486,37.80354</coordinates>
 </Point>
@@ -6204,7 +6204,7 @@
 <Placemark>
 <name>27557000</name>
 <description>27TH AVE and GEARY</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.48686,37.779987</coordinates>
 </Point>
@@ -6228,7 +6228,7 @@
 <Placemark>
 <name>24819000</name>
 <description>BATTERY and EMBARCADERO and LOMBARD</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40196,37.804066</coordinates>
 </Point>
@@ -6276,7 +6276,7 @@
 <Placemark>
 <name>21502000</name>
 <description>LOWELL and MISSION and NAGLEE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.44637,37.71143</coordinates>
 </Point>
@@ -6356,7 +6356,7 @@
 <Placemark>
 <name>26976000</name>
 <description>BRODERICK and LOMBARD and RICHARDSON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.444305,37.798786</coordinates>
 </Point>
@@ -6492,7 +6492,7 @@
 <Placemark>
 <name>26077000</name>
 <description>DIVISADERO and TURK</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.43873,37.779655</coordinates>
 </Point>
@@ -6532,7 +6532,7 @@
 <Placemark>
 <name>24905000</name>
 <description>CYRIL MAGNIN and O'FARRELL</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.40893,37.78629</coordinates>
 </Point>
@@ -6572,7 +6572,7 @@
 <Placemark>
 <name>23592000</name>
 <description>EMBARCADERO and KING and TOWNSEND and PIER 40</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.38829,37.78179</coordinates>
 </Point>
@@ -6620,7 +6620,7 @@
 <Placemark>
 <name>4971000</name>
 <description>DRUMM and MIDBLOCK AT and CLAY and SACRAMENTO</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rryr</styleUrl>
 <Point>
 <coordinates>-122.396645,37.795002</coordinates>
 </Point>
@@ -6676,7 +6676,7 @@
 <Placemark>
 <name>33364000</name>
 <description>CESAR CHAVEZ and SOUTH VAN NESS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41585,37.748207</coordinates>
 </Point>
@@ -6708,7 +6708,7 @@
 <Placemark>
 <name>23944000</name>
 <description>05TH ST and HOWARD</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.40492,37.781494</coordinates>
 </Point>
@@ -6756,7 +6756,7 @@
 <Placemark>
 <name>25814000</name>
 <description>17TH ST and CASTRO and MARKET</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.43517,37.762665</coordinates>
 </Point>
@@ -6764,7 +6764,7 @@
 <Placemark>
 <name>22193000</name>
 <description>HOWTH and OCEAN</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.44955,37.722958</coordinates>
 </Point>
@@ -6772,7 +6772,7 @@
 <Placemark>
 <name>25475000</name>
 <description>BEACH and EMBARCADERO and GRANT</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.409035,37.808105</coordinates>
 </Point>
@@ -6820,7 +6820,7 @@
 <Placemark>
 <name>24429000</name>
 <description>08TH ST and GROVE and HYDE and MARKET</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.41473,37.778713</coordinates>
 </Point>
@@ -6852,7 +6852,7 @@
 <Placemark>
 <name>27304000</name>
 <description>12TH AVE and GEARY</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.4707,37.78072</coordinates>
 </Point>
@@ -6868,7 +6868,7 @@
 <Placemark>
 <name>25804000</name>
 <description>16TH ST and MARKET and NOE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.43306,37.76419</coordinates>
 </Point>
@@ -6900,7 +6900,7 @@
 <Placemark>
 <name>30741000</name>
 <description>JONES and MARKET and MCALLISTER</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.41197,37.78095</coordinates>
 </Point>
@@ -6988,7 +6988,7 @@
 <Placemark>
 <name>9095000</name>
 <description>MISSION and MIDBLOCK AT and 03RD ST and 04TH ST</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.40307,37.785362</coordinates>
 </Point>
@@ -7036,7 +7036,7 @@
 <Placemark>
 <name>26843000</name>
 <description>CALIFORNIA and LYON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.44539,37.787434</coordinates>
 </Point>
@@ -7068,7 +7068,7 @@
 <Placemark>
 <name>27486000</name>
 <description>15TH AVE and GEARY</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.47397,37.78057</coordinates>
 </Point>
@@ -7156,7 +7156,7 @@
 <Placemark>
 <name>30756000</name>
 <description>MARKET and OCTAVIA and OCTAVIA RAMPS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.423386,37.77188</coordinates>
 </Point>
@@ -7164,7 +7164,7 @@
 <Placemark>
 <name>23796000</name>
 <description>03RD ST and BERRY</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.39109,37.77754</coordinates>
 </Point>
@@ -7172,7 +7172,7 @@
 <Placemark>
 <name>25573000</name>
 <description>COLUMBUS and LEAVENWORTH and NORTH POINT</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.418365,37.805973</coordinates>
 </Point>
@@ -7220,7 +7220,7 @@
 <Placemark>
 <name>25154000</name>
 <description>GEARY and LEAVENWORTH</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.414795,37.786514</coordinates>
 </Point>
@@ -7244,7 +7244,7 @@
 <Placemark>
 <name>21175000</name>
 <description>BESSIE and FOLSOM and PRECITA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.41352,37.74676</coordinates>
 </Point>
@@ -7300,7 +7300,7 @@
 <Placemark>
 <name>25352000</name>
 <description>COLUMBUS and GREEN and STOCKTON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.409004,37.799484</coordinates>
 </Point>
@@ -7356,7 +7356,7 @@
 <Placemark>
 <name>33269000</name>
 <description>03RD ST and MENDELL and PALOU</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.39095,37.73401</coordinates>
 </Point>
@@ -7388,7 +7388,7 @@
 <Placemark>
 <name>12547101</name>
 <description>EMBARCADERO and MIDBLOCK AT and BRANNAN and TOWNSEND</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.388245,37.78358</coordinates>
 </Point>
@@ -7412,7 +7412,7 @@
 <Placemark>
 <name>25484000</name>
 <description>EMBARCADERO and JEFFERSON and POWELL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.41251,37.80862</coordinates>
 </Point>
@@ -7436,7 +7436,7 @@
 <Placemark>
 <name>25972000</name>
 <description>TURK and WEBSTER</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.43041,37.780712</coordinates>
 </Point>
@@ -7468,7 +7468,7 @@
 <Placemark>
 <name>24871000</name>
 <description>CHESTNUT and EMBARCADERO and SANSOME</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.40342,37.80518</coordinates>
 </Point>
@@ -7492,7 +7492,7 @@
 <Placemark>
 <name>23183000</name>
 <description>19TH AVE and TARAVAL</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.47563,37.743046</coordinates>
 </Point>
@@ -7524,7 +7524,7 @@
 <Placemark>
 <name>24892000</name>
 <description>04TH ST and ELLIS and MARKET and STOCKTON</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrrg</styleUrl>
 <Point>
 <coordinates>-122.405815,37.78574</coordinates>
 </Point>
@@ -7556,7 +7556,7 @@
 <Placemark>
 <name>21541000</name>
 <description>MISSION and MORSE and WHITTIER</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.448364,37.71037</coordinates>
 </Point>
@@ -7572,7 +7572,7 @@
 <Placemark>
 <name>5871000</name>
 <description>FRONT and MIDBLOCK AT and CLAY and SACRAMENTO</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.39903,37.794724</coordinates>
 </Point>
@@ -7596,7 +7596,7 @@
 <Placemark>
 <name>25321000</name>
 <description>BROADWAY and COLUMBUS and GRANT</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.406654,37.79786</coordinates>
 </Point>
@@ -7620,7 +7620,7 @@
 <Placemark>
 <name>26764000</name>
 <description>BAY and CERVANTES and FILLMORE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.43668,37.802624</coordinates>
 </Point>
@@ -7668,7 +7668,7 @@
 <Placemark>
 <name>30753000</name>
 <description>GOUGH and HAIGHT and MARKET</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.42222,37.773148</coordinates>
 </Point>
@@ -7700,7 +7700,7 @@
 <Placemark>
 <name>24703000</name>
 <description>CLAY and SANSOME</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.401474,37.794834</coordinates>
 </Point>
@@ -7708,7 +7708,7 @@
 <Placemark>
 <name>22924000</name>
 <description>PORTOLA and SANTA CLARA and VICENTE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.46614,37.73923</coordinates>
 </Point>
@@ -7716,7 +7716,7 @@
 <Placemark>
 <name>30727000</name>
 <description>DRUMM and MAIN and MARKET</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.396286,37.79325</coordinates>
 </Point>
@@ -7732,7 +7732,7 @@
 <Placemark>
 <name>22436000</name>
 <description>O'SHAUGHNESSY and PORTOLA and WOODSIDE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.451614,37.74553</coordinates>
 </Point>
@@ -7748,7 +7748,7 @@
 <Placemark>
 <name>27441000</name>
 <description>CROSS OVER and MARTIN LUTHER KING JR</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.47735,37.766056</coordinates>
 </Point>
@@ -7788,7 +7788,7 @@
 <Placemark>
 <name>27341000</name>
 <description>19TH AVE and MORAGA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.47654,37.756104</coordinates>
 </Point>
@@ -7980,7 +7980,7 @@
 <Placemark>
 <name>7826101</name>
 <description>KEZAR and MIDBLOCK AT and JOHN F KENNEDY and WALLER</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rryr</styleUrl>
 <Point>
 <coordinates>-122.45539,37.770515</coordinates>
 </Point>
@@ -8012,7 +8012,7 @@
 <Placemark>
 <name>52248000</name>
 <description>MARIPOSA and OFF RAMP I-280 and ON RAMP I-280 and OWENS</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.39247,37.764084</coordinates>
 </Point>
@@ -8028,7 +8028,7 @@
 <Placemark>
 <name>25014000</name>
 <description>CLAY and POWELL</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.40953,37.793846</coordinates>
 </Point>
@@ -8068,7 +8068,7 @@
 <Placemark>
 <name>23906000</name>
 <description>04TH ST and HARRISON and US I-80 ON RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.399605,37.78079</coordinates>
 </Point>
@@ -8084,7 +8084,7 @@
 <Placemark>
 <name>21762000</name>
 <description>AVALON and MISSION and THERESA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.432434,37.72763</coordinates>
 </Point>
@@ -8156,7 +8156,7 @@
 <Placemark>
 <name>21329000</name>
 <description>30TH ST and EUGENIA and MISSION</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rry</styleUrl>
 <Point>
 <coordinates>-122.42196,37.74237</coordinates>
 </Point>
@@ -8164,7 +8164,7 @@
 <Placemark>
 <name>23652000</name>
 <description>04TH ST and MARIPOSA and MINNESOTA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.3908,37.764194</coordinates>
 </Point>
@@ -8180,7 +8180,7 @@
 <Placemark>
 <name>11010101</name>
 <description>BAKER and CHESTNUT and RICHARDSON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.44595,37.799576</coordinates>
 </Point>
@@ -8260,7 +8260,7 @@
 <Placemark>
 <name>20247000</name>
 <description>03RD ST and ARTHUR and CARGO</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.38716,37.74615</coordinates>
 </Point>
@@ -8340,7 +8340,7 @@
 <Placemark>
 <name>20472000</name>
 <description>03RD ST and GILMAN and PAUL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rry</styleUrl>
 <Point>
 <coordinates>-122.39561,37.722427</coordinates>
 </Point>
@@ -8388,7 +8388,7 @@
 <Placemark>
 <name>23070000</name>
 <description>EUCALYPTUS and JUNIPERO SERRA and OCEAN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.47179,37.731026</coordinates>
 </Point>
@@ -8396,7 +8396,7 @@
 <Placemark>
 <name>24671000</name>
 <description>BATTERY and PINE</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.39975,37.79225</coordinates>
 </Point>
@@ -8420,7 +8420,7 @@
 <Placemark>
 <name>33751000</name>
 <description>BAYSHORE and JERROLD and US 101 OFF RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40355,37.747757</coordinates>
 </Point>
@@ -8468,7 +8468,7 @@
 <Placemark>
 <name>24533000</name>
 <description>FREMONT and NATOMA and TRANSBAY TERMINAL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.395676,37.789654</coordinates>
 </Point>
@@ -8492,7 +8492,7 @@
 <Placemark>
 <name>25880000</name>
 <description>15TH ST and MARKET and SANCHEZ</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.43081,37.76601</coordinates>
 </Point>
@@ -8524,7 +8524,7 @@
 <Placemark>
 <name>23604000</name>
 <description>EMBARCADERO and HARRISON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.388466,37.789566</coordinates>
 </Point>
@@ -8548,7 +8548,7 @@
 <Placemark>
 <name>30742000</name>
 <description>07TH ST and CHARLES J BRENHAM and MARKET</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.4125,37.78047</coordinates>
 </Point>
@@ -8580,7 +8580,7 @@
 <Placemark>
 <name>50069000</name>
 <description>FREMONT and I-80 OFF-RAMP</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.39431,37.78857</coordinates>
 </Point>
@@ -8596,7 +8596,7 @@
 <Placemark>
 <name>10293000</name>
 <description>PARNASSUS and MIDBLOCK AT and UCSF HOSPITAL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.45865,37.763195</coordinates>
 </Point>
@@ -8676,7 +8676,7 @@
 <Placemark>
 <name>27857000</name>
 <description>34TH AVE and GEARY</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.49437,37.779644</coordinates>
 </Point>
@@ -8716,7 +8716,7 @@
 <Placemark>
 <name>24020000</name>
 <description>17TH ST and POTRERO</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.40741,37.764484</coordinates>
 </Point>
@@ -8740,7 +8740,7 @@
 <Placemark>
 <name>27025000</name>
 <description>GORGAS and LYON and RICHARDSON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.447685,37.800827</coordinates>
 </Point>
@@ -8772,7 +8772,7 @@
 <Placemark>
 <name>25477000</name>
 <description>BEACH and STOCKTON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.410675,37.807888</coordinates>
 </Point>
@@ -8796,7 +8796,7 @@
 <Placemark>
 <name>27221000</name>
 <description>GEARY and JORDAN and STANYAN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.45628,37.781384</coordinates>
 </Point>
@@ -8868,7 +8868,7 @@
 <Placemark>
 <name>24778000</name>
 <description>JACKSON and KEARNY</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.40513,37.796207</coordinates>
 </Point>
@@ -8876,7 +8876,7 @@
 <Placemark>
 <name>23929000</name>
 <description>07TH ST and HARRISON and US I-80 ON RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40628,37.77551</coordinates>
 </Point>
@@ -8924,7 +8924,7 @@
 <Placemark>
 <name>9096000</name>
 <description>MISSION and MIDBLOCK AT and 04TH ST and 05TH ST</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.40533,37.78358</coordinates>
 </Point>
@@ -8956,7 +8956,7 @@
 <Placemark>
 <name>20239000</name>
 <description>03RD ST and EVANS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.38792,37.7427</coordinates>
 </Point>
@@ -8996,7 +8996,7 @@
 <Placemark>
 <name>21359000</name>
 <description>CARTER and GENEVA and WALBRIDGE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.42334,37.709248</coordinates>
 </Point>
@@ -9044,7 +9044,7 @@
 <Placemark>
 <name>27213000</name>
 <description>ARGUELLO and BALBOA and TURK</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.458565,37.77725</coordinates>
 </Point>
@@ -9076,7 +9076,7 @@
 <Placemark>
 <name>22755000</name>
 <description>CERRITOS and OCEAN and WESTGATE</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.46667,37.727234</coordinates>
 </Point>
@@ -9084,7 +9084,7 @@
 <Placemark>
 <name>24437000</name>
 <description>GROVE and POLK</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41821,37.778484</coordinates>
 </Point>
@@ -9100,7 +9100,7 @@
 <Placemark>
 <name>33722000</name>
 <description>PLYMOUTH and SAGAMORE and SAN JOSE and SICKLES</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.45558,37.71147</coordinates>
 </Point>
@@ -9132,7 +9132,7 @@
 <Placemark>
 <name>21769000</name>
 <description>BRAZIL and MISSION and NORTON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rry</styleUrl>
 <Point>
 <coordinates>-122.434784,37.724678</coordinates>
 </Point>
@@ -9172,7 +9172,7 @@
 <Placemark>
 <name>25962000</name>
 <description>LAGUNA and TURK</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42719,37.781113</coordinates>
 </Point>
@@ -9196,7 +9196,7 @@
 <Placemark>
 <name>32977000</name>
 <description>CORBETT and MARKET and PORTOLA</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.44334,37.750076</coordinates>
 </Point>
@@ -9212,7 +9212,7 @@
 <Placemark>
 <name>21485000</name>
 <description>MISSION and NIAGARA and POPE and ROLPH</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.44168,37.71557</coordinates>
 </Point>
@@ -9308,7 +9308,7 @@
 <Placemark>
 <name>24063000</name>
 <description>24TH ST and SOUTH VAN NESS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41625,37.75237</coordinates>
 </Point>
@@ -9316,7 +9316,7 @@
 <Placemark>
 <name>21489000</name>
 <description>ALLISON and MISSION and MOUNT VERNON</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.44255,37.714657</coordinates>
 </Point>
@@ -9324,7 +9324,7 @@
 <Placemark>
 <name>26471000</name>
 <description>FULTON and PARKER and SHRADER</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.4528,37.77499</coordinates>
 </Point>
@@ -9340,7 +9340,7 @@
 <Placemark>
 <name>25003000</name>
 <description>PINE and POWELL</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.408966,37.791084</coordinates>
 </Point>
@@ -9356,7 +9356,7 @@
 <Placemark>
 <name>26400000</name>
 <description>ANZA and MASONIC and O'FARRELL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.4475,37.781063</coordinates>
 </Point>
@@ -9396,7 +9396,7 @@
 <Placemark>
 <name>25965000</name>
 <description>FILLMORE and FULTON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.431564,37.777695</coordinates>
 </Point>
@@ -9428,7 +9428,7 @@
 <Placemark>
 <name>23890000</name>
 <description>06TH ST and BRANNAN and US I-280 ON/OFF RAMPS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40097,37.774803</coordinates>
 </Point>
@@ -9492,7 +9492,7 @@
 <Placemark>
 <name>27545000</name>
 <description>25TH AVE and BALBOA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.48444,37.7763</coordinates>
 </Point>
@@ -9500,7 +9500,7 @@
 <Placemark>
 <name>8747101</name>
 <description>MARKET and MIDBLOCK AT and POWELL</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.407364,37.784523</coordinates>
 </Point>
@@ -9540,7 +9540,7 @@
 <Placemark>
 <name>20244000</name>
 <description>03RD ST and DAVIDSON and PHELPS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.38762,37.743523</coordinates>
 </Point>
@@ -9588,7 +9588,7 @@
 <Placemark>
 <name>24216000</name>
 <description>11TH ST and BRYANT and DIVISION</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.41092,37.769405</coordinates>
 </Point>
@@ -9612,7 +9612,7 @@
 <Placemark>
 <name>20578000</name>
 <description>DWIGHT and PAUL and SAN BRUNO</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.40205,37.723915</coordinates>
 </Point>
@@ -9676,7 +9676,7 @@
 <Placemark>
 <name>24342000</name>
 <description>14TH ST and SOUTH VAN NESS</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.417786,37.768402</coordinates>
 </Point>
@@ -9716,7 +9716,7 @@
 <Placemark>
 <name>21890000</name>
 <description>30TH ST and SAN JOSE</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42327,37.74229</coordinates>
 </Point>
@@ -9860,7 +9860,7 @@
 <Placemark>
 <name>23574000</name>
 <description>ILLINOIS and MARIPOSA and TERRY A FRANCOIS</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.3879,37.764374</coordinates>
 </Point>
@@ -9972,7 +9972,7 @@
 <Placemark>
 <name>27141000</name>
 <description>07TH AVE and KIRKHAM</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.4639,37.7604</coordinates>
 </Point>
@@ -10012,7 +10012,7 @@
 <Placemark>
 <name>22629000</name>
 <description>MIRAMAR and OCEAN</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.458176,37.72431</coordinates>
 </Point>
@@ -10084,7 +10084,7 @@
 <Placemark>
 <name>26948000</name>
 <description>CALIFORNIA and MAPLE and PARKER</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.45504,37.786205</coordinates>
 </Point>
@@ -10108,7 +10108,7 @@
 <Placemark>
 <name>24639000</name>
 <description>03RD ST and STEVENSON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.403015,37.787018</coordinates>
 </Point>
@@ -10156,7 +10156,7 @@
 <Placemark>
 <name>23785000</name>
 <description>07TH ST and 16TH ST and MISSISSIPPI</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.39505,37.76654</coordinates>
 </Point>
@@ -10164,7 +10164,7 @@
 <Placemark>
 <name>26514000</name>
 <description>GEARY and LAGUNA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42798,37.78495</coordinates>
 </Point>
@@ -10204,7 +10204,7 @@
 <Placemark>
 <name>24183000</name>
 <description>16TH ST and VALENCIA</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.421875,37.76491</coordinates>
 </Point>
@@ -10212,7 +10212,7 @@
 <Placemark>
 <name>30749000</name>
 <description>12TH ST and FRANKLIN and MARKET and PAGE</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.420685,37.774002</coordinates>
 </Point>
@@ -10324,7 +10324,7 @@
 <Placemark>
 <name>23908000</name>
 <description>05TH ST and HARRISON and US I-80 OFF RAMP</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.40183,37.779026</coordinates>
 </Point>
@@ -10380,7 +10380,7 @@
 <Placemark>
 <name>25533000</name>
 <description>BAY and COLUMBUS and JONES</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rgr</styleUrl>
 <Point>
 <coordinates>-122.41721,37.805164</coordinates>
 </Point>
@@ -10388,7 +10388,7 @@
 <Placemark>
 <name>26540000</name>
 <description>VAN NESS and WASHINGTON</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.42286,37.793045</coordinates>
 </Point>
@@ -10412,7 +10412,7 @@
 <Placemark>
 <name>21496000</name>
 <description>FOOTE and GUTTENBERG and MISSION</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.44473,37.712616</coordinates>
 </Point>
@@ -10444,7 +10444,7 @@
 <Placemark>
 <name>24627000</name>
 <description>04TH ST and HOWARD</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.402695,37.783253</coordinates>
 </Point>
@@ -10484,7 +10484,7 @@
 <Placemark>
 <name>20770000</name>
 <description>SAN BRUNO and SILVER</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.405594,37.732433</coordinates>
 </Point>
@@ -10596,7 +10596,7 @@
 <Placemark>
 <name>2829000</name>
 <description>BAYSHORE and MIDBLOCK AT and CESAR CHAVEZ and MARIN</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrgr</styleUrl>
 <Point>
 <coordinates>-122.40465,37.74906</coordinates>
 </Point>
@@ -10636,7 +10636,7 @@
 <Placemark>
 <name>21441000</name>
 <description>GENEVA and MADRID</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.43779,37.714935</coordinates>
 </Point>
@@ -10668,7 +10668,7 @@
 <Placemark>
 <name>30757000</name>
 <description>GUERRERO and HERMANN and LAGUNA and MARKET</description>
-<styleUrl>#i4grrr</styleUrl>
+<styleUrl>#i4rrrg</styleUrl>
 <Point>
 <coordinates>-122.42484,37.770744</coordinates>
 </Point>
@@ -10692,7 +10692,7 @@
 <Placemark>
 <name>27374000</name>
 <description>19TH AVE and CROSS OVER and LINCOLN</description>
-<styleUrl>#i3grr</styleUrl>
+<styleUrl>#i3rrg</styleUrl>
 <Point>
 <coordinates>-122.477295,37.76544</coordinates>
 </Point>
@@ -10724,7 +10724,7 @@
 <Placemark>
 <name>25512000</name>
 <description>HYDE and UNION</description>
-<styleUrl>#i2gr</styleUrl>
+<styleUrl>#i2yr</styleUrl>
 <Point>
 <coordinates>-122.41904,37.799194</coordinates>
 </Point>

@@ -4,7 +4,18 @@
 #include <string>
 #include <sstream>
 #include "TrafficController.hpp"
+#include "Event.hpp"
+#include <queue>
+#include <utility>
 using namespace std;
+
+vector<TrafficController> trafficControllers;
+priority_queue<Event> pq;
+
+bool operator<(const Event e1, const Event e2)
+{
+  return e1.time > e2.time;
+}
 
 vector<string> parseCSVLine(string line)
 {
@@ -20,7 +31,6 @@ vector<string> parseCSVLine(string line)
       words.push_back(tmp);
     else
     {
-      // FIX THIS!!!
       string cellWithCommas = tmp;
       getline(str_strm, tmp, delim);
       while (tmp.find("\"") == string::npos)
@@ -35,30 +45,10 @@ vector<string> parseCSVLine(string line)
   return words;
 }
 
-int main(int argc, char **argv)
+void readCSV()
 {
-  int t;
-  if (argc != 2)
-  {
-    std::cout << "Incorrect number of arguements" << std::endl;
-    return 0;
-  }
-  else
-  {
-    string arg = string(argv[1]);
-    arg.erase(0, 3);
-    t = stoi(arg);
-    if (t < 0)
-    {
-      cout << "The input time must be a non-negative integer." << endl;
-    }
-  }
-
-  int counter = -1;
-  vector<TrafficController> trafficControllers;
   string line;
   ifstream f;
-
   f.open("Traffic_Signals_SF.csv");
 
   if (f.is_open())
@@ -96,7 +86,7 @@ int main(int argc, char **argv)
         }
         TrafficController t = TrafficController(streets, cnn, k, coordinates);
         trafficControllers.push_back(t);
-        k = k + streets.size() - 1;
+        k = k + streets.size();
       }
     }
     f.close();
@@ -105,26 +95,10 @@ int main(int argc, char **argv)
   {
     cout << "Can't open file" << endl;
   }
+}
 
-  // Start simulation
-  counter = 0;
-  for (vector<TrafficController>::iterator it = trafficControllers.begin(); it != trafficControllers.end(); ++it)
-  {
-    (*it).startSimulation();
-    // (*it).printAllLights();
-  }
-
-  // Update traffic lights
-  while (counter < t)
-  {
-    for (vector<TrafficController>::iterator it = trafficControllers.begin(); it != trafficControllers.end(); ++it)
-    {
-      (*it).update();
-    }
-    counter = counter + 1;
-  }
-
-  // Output csv file
+void outputCSV()
+{
   ofstream csvOutput;
   csvOutput.open("myfile.csv");
   if (csvOutput.is_open())
@@ -146,8 +120,10 @@ int main(int argc, char **argv)
     }
   }
   csvOutput.close();
+}
 
-  // Output kml file
+void outputKML()
+{
   ofstream kmlOutput;
   kmlOutput.open("myfile.kml");
 
@@ -248,6 +224,58 @@ int main(int argc, char **argv)
   kmlOutput << "</kml>" << endl;
 
   kmlOutput.close();
+}
 
-  return 0;
+int main(int argc, char **argv)
+{
+  int t;
+  if (argc != 2)
+  {
+    std::cout << "Incorrect number of arguements" << std::endl;
+    return 0;
+  }
+  else
+  {
+    string arg = string(argv[1]);
+    arg.erase(0, 3);
+    t = stoi(arg);
+    if (t < 0)
+    {
+      cout << "The input time must be a non-negative integer." << endl;
+    }
+  }
+
+  // Read the input csv file and populate the vector of traffic controllers
+  readCSV();
+
+  // Start simulation - switch each first traffic light to green and push events to queue
+  for (vector<TrafficController>::iterator it = trafficControllers.begin(); it != trafficControllers.end(); ++it)
+  {
+    int time = (*it).startSimulation();
+    Event e = Event(time, &(*it));
+    pq.push(e);
+  }
+
+  // Update traffic lights
+  while (!pq.empty())
+  {
+    Event e = pq.top();
+    int eventTime = e.time;
+    if (eventTime <= t)
+    {
+      TrafficController *tr = e.getTrafficController();
+      int nextTime = (*tr).update(eventTime);
+      pq.pop();
+      e.changeNextOccurence(nextTime);
+      pq.push(e);
+    }
+    else
+    {
+      vector<TrafficController>::iterator it_test = trafficControllers.begin();
+      (*it_test).printAllLights();
+      outputCSV();
+      outputKML();
+      return 0;
+    }
+  }
 }

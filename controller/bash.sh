@@ -1,0 +1,1 @@
+zip -r myfile.kmz myfile.kml files
