@@ -1,5 +1,6 @@
 #include "TrafficController.hpp"
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 TrafficController::TrafficController(vector<string> streets, string cnn, int k, string coordinates)
@@ -59,7 +60,7 @@ int TrafficController::startSimulation()
 
 int TrafficController::update(int currentTime)
 {
-  int nextEventTime = 1000;
+  int nextEventTime = INT_MAX;
   int nextGreenTrafficLightIndex;
   int nextGreenTime;
   bool someoneSwitchedToGreen = false;
@@ -142,7 +143,7 @@ void TrafficController::printAllLights()
 {
   for (int i = 0; i < intersection; i++)
   {
-    cout << trafficLights.at(i).getStreetName() << ": " << trafficLights.at(i).getState() << ", Next switch time:"
+    cout << trafficLights.at(i).getStreetName() << ":       " << trafficLights.at(i).getState() << ", Next switch time:"
          << trafficLights.at(i).getNextSwitchTime() << endl;
   }
 }

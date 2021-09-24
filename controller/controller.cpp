@@ -271,8 +271,6 @@ int main(int argc, char **argv)
     }
     else
     {
-      vector<TrafficController>::iterator it_test = trafficControllers.begin();
-      (*it_test).printAllLights();
       outputCSV();
       outputKML();
       return 0;

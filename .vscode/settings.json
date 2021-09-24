@@ -1,6 +1,10 @@
 {
   "files.associations": {
     "string": "cpp",
-    "string_view": "cpp"
+    "string_view": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "*.tcc": "cpp",
+    "iosfwd": "cpp"
   }
 }
