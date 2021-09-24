@@ -8,9 +8,10 @@ TrafficController::TrafficController(vector<string> streets, string cnn, int k, 
   this->streets = streets;
   this->cnn = cnn;
   this->k = k;
-  this->intersection = streets.size();
+  this->numberOfStreets = streets.size();
+  this->yellowCycle = 10;
   vector<TrafficLight> trafficLights;
-  for (int i = 0; i < intersection; i++)
+  for (int i = 0; i < numberOfStreets; i++)
   {
     int state = 0;
     int lengthGreen;
@@ -54,7 +55,7 @@ int TrafficController::startSimulation()
   trafficLights.at(0).switchColor();
   int greenCycle = trafficLights.at(0).getGreenCycle();
   trafficLights.at(0).setNextSwitchTime(greenCycle);
-  trafficLights.at(1).setNextSwitchTime(greenCycle + 10);
+  trafficLights.at(1).setNextSwitchTime(greenCycle + yellowCycle);
   return greenCycle;
 }
 
@@ -64,7 +65,7 @@ int TrafficController::update(int currentTime)
   int nextGreenTrafficLightIndex;
   int nextGreenTime;
   bool someoneSwitchedToGreen = false;
-  for (int i = 0; i < intersection; i++)
+  for (int i = 0; i < numberOfStreets; i++)
   {
     if (trafficLights.at(i).getNextSwitchTime() == currentTime)
     {
@@ -74,13 +75,13 @@ int TrafficController::update(int currentTime)
         int nextSwitchTime = currentTime + trafficLights.at(i).getGreenCycle();
         nextEventTime = min(nextEventTime, nextSwitchTime);
         trafficLights.at(i).setNextSwitchTime(nextSwitchTime);
-        nextGreenTrafficLightIndex = (i + 1) % intersection;
-        nextGreenTime = nextSwitchTime + 10;
+        nextGreenTrafficLightIndex = (i + 1) % numberOfStreets;
+        nextGreenTime = nextSwitchTime + yellowCycle;
         someoneSwitchedToGreen = true;
       }
       else if (trafficLights.at(i).getState() == 2)
       {
-        int nextSwitchTime = currentTime + 10;
+        int nextSwitchTime = currentTime + yellowCycle;
         nextEventTime = min(nextEventTime, nextSwitchTime);
         trafficLights.at(i).setNextSwitchTime(nextSwitchTime);
       }
@@ -96,21 +97,21 @@ int TrafficController::update(int currentTime)
 vector<string> TrafficController::getCSV()
 {
   vector<string> csv;
-  for (int i = 0; i < intersection; i++)
+  for (int i = 0; i < numberOfStreets; i++)
   {
     string street = trafficLights.at(i).getStreetName();
     string color;
     if (trafficLights.at(i).getState() == 0)
     {
-      color = "Red";
+      color = "RED";
     }
     else if (trafficLights.at(i).getState() == 1)
     {
-      color = "Green";
+      color = "GREEN";
     }
     else
     {
-      color = "Yellow";
+      color = "YELLOW";
     }
     string row = cnn + "," + street + "," + color;
     csv.push_back(row);
@@ -124,8 +125,8 @@ vector<string> TrafficController::getKML()
   kml.push_back("<Placemark>");
   kml.push_back("<name>" + cnn + "</name>");
   string description = streets.at(0);
-  string icon = "i" + to_string(intersection) + stateToColor(trafficLights.at(0).getState());
-  for (int i = 1; i < intersection; i++)
+  string icon = "i" + to_string(numberOfStreets) + stateToColor(trafficLights.at(0).getState());
+  for (int i = 1; i < numberOfStreets; i++)
   {
     description = description + " and " + streets.at(i);
     icon = icon + stateToColor(trafficLights.at(i).getState());
@@ -141,7 +142,7 @@ vector<string> TrafficController::getKML()
 
 void TrafficController::printAllLights()
 {
-  for (int i = 0; i < intersection; i++)
+  for (int i = 0; i < numberOfStreets; i++)
   {
     cout << trafficLights.at(i).getStreetName() << ":       " << trafficLights.at(i).getState() << ", Next switch time:"
          << trafficLights.at(i).getNextSwitchTime() << endl;

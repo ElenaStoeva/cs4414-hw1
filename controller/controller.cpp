@@ -1,12 +1,10 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 #include <string>
 #include <sstream>
 #include "TrafficController.hpp"
 #include "Event.hpp"
 #include <queue>
-#include <utility>
 using namespace std;
 
 vector<TrafficController> trafficControllers;

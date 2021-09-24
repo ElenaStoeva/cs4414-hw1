@@ -6,9 +6,8 @@
 TrafficLight::TrafficLight(string streetName, int state, int lengthGreen, int nextSwitchTime)
 {
   this->streetName = streetName;
-  this->state = state; //remove state argument, initiallize to 0
+  this->state = state;
   this->lengthGreen = lengthGreen;
-  this->lengthYellow = 10;
   this->nextSwitchTime = nextSwitchTime;
 }
 
