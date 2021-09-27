@@ -9,7 +9,7 @@ int min_rgb = 0x000000;
 
 int main()
 {
-  string pathBase = "./";
+  string pathBase = "./files/";
   string colors[3] = {"r", "g", "y"};
 
   // Create files for 2-street intersections
